@@ -1,0 +1,33 @@
+.CreateUserButton {
+  background-color: tomato;
+  box-shadow: 0px 5px 25px rgba(247, 67, 67, 0.685);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 50px;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-weight: bold;
+  color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+
+  transform: rotate(0);
+  transition: .3s ease;
+  z-index: 1;
+}
+
+.CreateUserButton:hover {
+  transform: rotate(224deg);
+}
+
+.LableButtonUser{
+  position: fixed;
+  bottom: 44px;
+  left: 104px;
+  font-weight: bold;
+}
